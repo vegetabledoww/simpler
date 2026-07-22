@@ -454,7 +454,6 @@ int bind_callable_to_runtime_impl(
         return rc;
     }
 
-    LOG_INFO_V0("Runtime initialized. Ready for execution from Python.");
     return 0;
 }
 
